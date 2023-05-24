@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">OnlineShoppingApp</string>
+    <string name="alreadyHaveAccount">Already \nhave an \nAccount?</string>
+    <string name="email">Email</string>
+    <string name="pass">Password</string>
+    <string name="loginBtn">Login</string>
+    <string name="registerNow">New user? Register Now</string>
+
+    <!-- content Description -->
+    <string name="loginPng">Login Image</string>
+</resources>
