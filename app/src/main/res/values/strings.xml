@@ -1,10 +1,21 @@
 <resources>
     <string name="app_name">OnlineShoppingApp</string>
-    <string name="alreadyHaveAccount">Already \nhave an \nAccount?</string>
+    <string name="HaveAccount">Already \nhave an \nAccount?</string>
+    <string name="firstStep">Here`s \nyour first \nstep with \nus!</string>
+
+    <!-- Text View -->
+    <string name="registerNow">New user? Register Now</string>
+    <string name="existingUser">Already have an Account?</string>
+
+    <!-- Buttons -->
+    <string name="loginBtn">Login</string>
+    <string name="registerBtn">Register</string>
+
+    <!-- Credentials -->
+    <string name="name">Name</string>
     <string name="email">Email</string>
     <string name="pass">Password</string>
-    <string name="loginBtn">Login</string>
-    <string name="registerNow">New user? Register Now</string>
+    <string name="confirmPass">Confirm Password</string>
 
     <!-- content Description -->
     <string name="loginPng">Login Image</string>
