@@ -8,6 +8,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class RegisterActivity extends AppCompatActivity {
     TextView oldUser;
@@ -32,6 +33,7 @@ public class RegisterActivity extends AppCompatActivity {
     }
 
     private void add() {
-
+        Toast.makeText(this, "Registration complete", Toast.LENGTH_SHORT).show();
+        startActivity(new Intent(RegisterActivity.this, LoginActivity.class));
     }
 }

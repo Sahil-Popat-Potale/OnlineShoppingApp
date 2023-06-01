@@ -4,10 +4,13 @@
     <string name="firstStep">Here`s \nyour first \nstep with \nus!</string>
 
     <!-- Text View -->
+    <string name="about">You can find every type of Product</string>
+    <string name="welcome">Welcome to our Shopping App</string>
     <string name="registerNow">New user? Register Now</string>
     <string name="existingUser">Already have an Account?</string>
 
     <!-- Buttons -->
+    <string name="buy">Buy</string>
     <string name="loginBtn">Login</string>
     <string name="registerBtn">Register</string>
 

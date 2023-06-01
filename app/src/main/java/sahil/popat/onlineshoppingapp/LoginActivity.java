@@ -20,8 +20,10 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
         email=findViewById(R.id.email);
         pass=findViewById(R.id.password);
-        login=findViewById(R.id.loginBtn);
         setText();
+        login=findViewById(R.id.loginBtn);
+        login.setOnClickListener(v -> startActivity(new Intent(LoginActivity.this,
+                ShopActivity.class)));
 
         register=findViewById(R.id.registerNow);
         register.setOnClickListener(v -> startActivity(new Intent(LoginActivity.this,
