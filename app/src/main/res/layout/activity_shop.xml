@@ -41,10 +41,10 @@
 
                         <ImageView
                             android:id="@+id/imageView1"
-                            android:layout_width="180dp"
-                            android:layout_height="120dp"
-                            tools:srcCompat="@drawable/img_1"
-                            android:contentDescription="Head Phone" />
+                            android:layout_width="150dp"
+                            android:layout_height="140dp"
+                            app:srcCompat="@drawable/img_1"
+                            android:contentDescription="@string/hedSetPng" />
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -55,13 +55,16 @@
                                 android:id="@+id/disc1"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="TextView" />
+                                android:textSize="20sp"
+                                android:text="@string/headSet" />
 
                             <TextView
                                 android:id="@+id/price1"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="TextView" />
+                                android:layout_gravity="bottom"
+                                android:text="@string/headSetPrice"
+                                android:textSize="20sp" />
 
                         </LinearLayout>
 
@@ -98,8 +101,9 @@
                         <ImageView
                             android:id="@+id/imageView2"
                             android:layout_width="150dp"
-                            android:layout_height="130dp"
-                            tools:srcCompat="@drawable/img_2" />
+                            android:layout_height="140dp"
+                            app:srcCompat="@drawable/img_2"
+                            android:contentDescription="@string/mobilePng" />
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -110,13 +114,13 @@
                                 android:id="@+id/disc2"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="TextView" />
+                                android:text="@string/mobilePhone" />
 
                             <TextView
                                 android:id="@+id/price2"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="TextView" />
+                                android:text="@string/mobilePrice" />
 
                         </LinearLayout>
 
@@ -152,9 +156,10 @@
 
                         <ImageView
                             android:id="@+id/imageView3"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            tools:srcCompat="@drawable/img_3" />
+                            android:layout_width="150dp"
+                            android:layout_height="130dp"
+                            app:srcCompat="@drawable/img_3"
+                            android:contentDescription="@string/shoePng" />
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -165,13 +170,13 @@
                                 android:id="@+id/disc3"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="TextView" />
+                                android:text="@string/shoe" />
 
                             <TextView
                                 android:id="@+id/price3"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="TextView" />
+                                android:text="@string/shoePrice" />
 
                         </LinearLayout>
 
@@ -207,9 +212,10 @@
 
                         <ImageView
                             android:id="@+id/imageView4"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            tools:srcCompat="@drawable/img_4" />
+                            android:layout_width="150dp"
+                            android:layout_height="140dp"
+                            app:srcCompat="@drawable/img_4"
+                            android:contentDescription="@string/laptopPng" />
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -220,13 +226,13 @@
                                 android:id="@+id/disc4"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="TextView" />
+                                android:text="@string/laptop" />
 
                             <TextView
                                 android:id="@+id/price4"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="TextView" />
+                                android:text="@string/laptopPrice" />
 
                         </LinearLayout>
 
@@ -262,9 +268,10 @@
 
                         <ImageView
                             android:id="@+id/imageView5"
-                            android:layout_width="180dp"
-                            android:layout_height="120dp"
-                            tools:srcCompat="@drawable/img_5" />
+                            android:layout_width="150dp"
+                            android:layout_height="140dp"
+                            app:srcCompat="@drawable/img_5"
+                            android:contentDescription="@string/mousePng" />
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -275,13 +282,13 @@
                                 android:id="@+id/disc5"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="TextView" />
+                                android:text="@string/mouse" />
 
                             <TextView
                                 android:id="@+id/price5"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="TextView" />
+                                android:text="@string/mousePrice" />
 
                         </LinearLayout>
 

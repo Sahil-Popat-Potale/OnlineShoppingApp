@@ -8,6 +8,16 @@
     <string name="welcome">Welcome to our Shopping App</string>
     <string name="registerNow">New user? Register Now</string>
     <string name="existingUser">Already have an Account?</string>
+    <string name="headSet">Bluetooth HeadPhone</string>
+    <string name="mobilePhone">Smart Phone</string>
+    <string name="shoe">Stylish Shoes</string>
+    <string name="laptop">Gaming LapTop</string>
+    <string name="mouse">Gaming Mouse</string>
+    <string name="headSetPrice">₹800</string>
+    <string name="mobilePrice">₹15,000</string>
+    <string name="shoePrice">₹1,000</string>
+    <string name="laptopPrice">₹60,000</string>
+    <string name="mousePrice">₹500</string>
 
     <!-- Buttons -->
     <string name="buy">Buy</string>
@@ -22,6 +32,9 @@
 
     <!-- content Description -->
     <string name="loginPng">Login Image</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hedSetPng">Head Phone Image</string>
+    <string name="mobilePng">Mobile Image</string>
+    <string name="shoePng">Shoe Image</string>
+    <string name="laptopPng">Laptop Image</string>
+    <string name="mousePng">Mouse Image</string>
 </resources>
